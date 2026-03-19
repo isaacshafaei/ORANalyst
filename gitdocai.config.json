@@ -1,0 +1,68 @@
+{
+  "name": "ORANalyst",
+  "description": "",
+  "theme": "crystal",
+  "colors": {
+    "dark": "#8b5cf6",
+    "light": "#3b82f6"
+  },
+  "defaultThemeMode": "light",
+  "logo": {
+    "light": "/assets/light.svg",
+    "dark": "/assets/dark.svg",
+    "reference": ""
+  },
+  "favicon": "/assets/favicon.svg",
+  "background": {
+    "colors": {
+      "dark": "#0a0f1c",
+      "light": "#fafbfc"
+    }
+  },
+  "aiSearch": {
+    "mode": "sidebar",
+    "placeholder": "",
+    "welcomeMessage": ""
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "items": [
+          {
+            "type": "group",
+            "title": "Getting Started",
+            "children": [
+              {
+                "type": "page",
+                "title": "Platform Overview",
+                "page": "/documentation/getting_started/platform_overview.mdx"
+              },
+              {
+                "type": "page",
+                "title": "Quick Start Guide",
+                "page": "/documentation/getting_started/quick_start.mdx"
+              }
+            ]
+          },
+          {
+            "type": "group",
+            "title": "User Guide",
+            "children": [
+              {
+                "type": "page",
+                "title": "Dashboard Navigation",
+                "page": "/documentation/user_guide/dashboard_navigation.mdx"
+              },
+              {
+                "type": "page",
+                "title": "Data Analysis Features",
+                "page": "/documentation/user_guide/data_analysis.mdx"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
